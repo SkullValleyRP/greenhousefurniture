@@ -8,9 +8,11 @@ Requirements
 Install
 
 Create a folder named greenhouse in your resources folder.
+
 Copy the .ymap files in this repository to that folder.
 
 Create a folder named greenhousefurniture in your resources folder that stores your .xml maps. -- [mapster]
+
 Copy the .xml files in this repository to that folder.
 
 Add ensure greenhouse to resources.cfg.
