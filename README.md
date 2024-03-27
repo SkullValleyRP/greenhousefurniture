@@ -9,11 +9,22 @@ Install
 
 Create a folder named greenhouse in your resources folder.
 
-Copy the .ymap files in this repository to that folder.
+Copy the .ymap and .fxmanifest files in this repository to that folder.
 
 Create a folder named greenhousefurniture in your resources folder that stores your .xml maps. -- [mapster]
+Create a copy of the fxmanifest and replace the files { with: 
 
-Copy the .xml files in this repository to that folder.
+dependency 'objectloader'
+
+files {
+	'recruit_bay.xml'
+}
+
+objectloader_maps {
+	'recruit_bay.xml'
+}
+
+Copy the .xml and NEW fxmanifest to that folder.
 
 Add ensure greenhouse to resources.cfg.
 Add ensure [mapster] to resources.cfg.
