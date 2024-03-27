@@ -17,11 +17,11 @@ Create a copy of the fxmanifest and replace the files { with:
 dependency 'objectloader'
 
 files {
-	'recruit_bay.xml'
+	'greenhousefurniture.xml'
 }
 
 objectloader_maps {
-	'recruit_bay.xml'
+	'greenhousefurniture.xml'
 }
 
 Copy the .xml and NEW fxmanifest to that folder.
